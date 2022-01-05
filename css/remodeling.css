@@ -1,0 +1,45 @@
+:root {
+    --grey: #555;
+    --orange: #ff7a00;
+}
+
+* {
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+    transition: all .2s ease;
+}
+
+.brand-name {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.brand-name:hover {
+    color: var(--orange);
+}
+
+.bar-header {
+    box-shadow: 0 .2rem .5rem;
+}
+
+.image-banner {
+    height: 620px;
+    width: 100%;
+    margin-top: .2%;
+}
+
+.bar-list {
+    margin-right: 3%;
+}
+
+.bar-list li a {
+    color: var(--grey);
+    font-size: 1.2rem;
+}
+
+.bar-list li a:hover {
+    color: var(--orange);
+
+}
